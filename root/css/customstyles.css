@@ -1,0 +1,6 @@
+.sloganskew {
+    -ms-transform: skewX(-20deg); /* IE 9 */
+    -webkit-transform: skewX(-20deg); /* Safari */
+    transform: skewX(-20deg); /* Standard syntax */
+    padding: 0 5px;
+}
