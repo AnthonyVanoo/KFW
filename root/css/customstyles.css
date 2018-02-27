@@ -4,3 +4,7 @@
     transform: skewX(-20deg); /* Standard syntax */
     padding: 0 5px;
 }
+
+.nav-font {
+    font-size: 1.2em;
+}
