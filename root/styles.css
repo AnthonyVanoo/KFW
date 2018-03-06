@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto|Source+Sans+Pro');
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sloganskew {
+    -ms-transform: skewX(-20deg); /* IE 9 */
+    -webkit-transform: skewX(-20deg); /* Safari */
+    transform: skewX(-20deg); /* Standard syntax */
+    padding: 0 5px;
+}
+
+.nav-font {
+    font-size: 1.2em;
+}
+
+/* sidebar */
+
+#sidebar {
+    border-left-style: inset;
+}
+
+#sidebar h4 {
+    text-align: center;
+}
+
+
+
+/* custom for different screen sizes */
+
+/* Large desktop screens */
+@media only screen and (min-width: 1500px) {
+    .mainContent {
+        padding-left: 125px;
+    }
+    #sidebar p {
+        padding-left: 15px;
+    }
+}
+
+/* Small mobile screens */
+
+@media only screen and (max-width: 576px) {
+    #sidebar {
+        border-left-style: none;
+    }
+}
