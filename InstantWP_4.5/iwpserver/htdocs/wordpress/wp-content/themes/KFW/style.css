@@ -7,7 +7,6 @@ font-family: 'Noto Sans', sans-serif;
 
 body {
     font-family: 'Roboto', sans-serif;
-
 }
 
 .sloganskew {
@@ -26,12 +25,44 @@ body {
 #sidebar {
     border-left-style: inset;
 }
-
 #sidebar h4 {
     text-align: center;
 }
+.fb-b {
+    font-size: 24px;
+    color:  #29487d;
+}
+.fb-b:hover {
+    font-size: 25px;
+}
 
+/* footer */
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(32, 32, 32, 0.082);
+}
+footer p {
+    margin-bottom: 0;
+}
 
+/* products page */
+
+.sm-ca {
+    padding: 25px;
+}
+.bg-tran {
+    background-color: rgba(0,0,0,.3);
+    text-shadow: .5px .5px black;
+}
+
+/* digi */
+
+.tr {
+    text-align: right;
+}
 
 /* custom for different screen sizes */
 

@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kuusamon Fotopalvelu Oy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <!-- Custom styles -->
-     <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo("template_url");?>/css/bootstrap.min.css" />
-     <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo("template_url");?>/style.css" />
+    <meta name="author" content="Anthony Vanoostendorp0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo("template_url");?>/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo("template_url");?>/style.css" />
 </head>
 <body>
     <header class="row justify-content-center">

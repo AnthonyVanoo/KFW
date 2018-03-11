@@ -1,5 +1,5 @@
     <footer>
-
+        <p>All photos belong to Kuusamon Fotopalvelu Oy, design by Anthony</p>
     </footer>
 
     
